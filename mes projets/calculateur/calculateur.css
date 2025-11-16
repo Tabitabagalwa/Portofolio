@@ -1,0 +1,36 @@
+body {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.forme {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+  max-width: 400px;
+  border: 10px;
+  border-color: aqua;
+  border-radius: 5px;
+  background-color: bisque;
+  margin: 40px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px;
+  padding: 5px;
+}
+input,
+label,
+button {
+  border: 1px;
+  border-radius: 5px;
+}
+span {
+  color: brown;
+}
+button {
+  background-color: darksalmon;
+  margin-top: 10px;
+}

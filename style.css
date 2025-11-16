@@ -1,0 +1,543 @@
+:root {
+  --main-color: aqua;
+  --main-button: aqua;
+  --main-background-color: aqua;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "inter";
+  height: auto;
+  width: 100%;
+}
+
+.header-container {
+  background-color: #0f1108;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  margin-bottom: 5px;
+}
+
+span {
+  font-weight: bold;
+  color: var(--main-color);
+}
+.name {
+  text-align: left;
+}
+.name2 {
+  color: aliceblue;
+}
+.name3 {
+  color: var(--main-color);
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  text-align: right;
+}
+
+.item {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a.item :hover {
+  color: var(--main-color);
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 15px 30px 15px 20px;
+  gap: 15px;
+  padding: 5px;
+  height: 500px;
+  justify-content: space-between;
+}
+
+.image1 {
+  background-image: url(/image/developpement-web-.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  text-align: end;
+  object-fit: cover;
+  border: 5px;
+  border-color: aqua;
+}
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  padding: 10px;
+  margin: 10px;
+  background-color: var(--main-button);
+  border: 1px;
+  border-radius: 3px;
+  color: aliceblue;
+  font-size: 16px;
+}
+.about-container {
+  background-color: #d5d6df;
+  padding: 40px;
+  gap: 20px;
+  height: 500px;
+  justify-content: space-between;
+}
+#about {
+  text-align: center;
+  color: var(--main-color);
+}
+.about {
+  text-align: left;
+  max-width: 700px;
+  padding: 10px;
+}
+.apropos {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  font-size: 16px;
+}
+.images {
+  text-align: right;
+  flex: 1;
+  padding-left: 250px;
+}
+
+.image {
+  background-image: url(/image/image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid aqua;
+}
+
+.projet-container,
+.competence-container {
+  padding: 40px 40px 40px 80px;
+  height: 500px;
+}
+.project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin-top: 30px;
+}
+.projets {
+  color: var(--main-color);
+  text-align: center;
+  margin: 30px;
+}
+.projet {
+  text-align: center;
+}
+.projet1 {
+  background-color: #d5d6df;
+  text-align: center;
+  width: 400px;
+  border: 2px;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px 20px 10px 10px;
+}
+.voir {
+  padding: 8px 30px;
+  font-size: 20px;
+}
+
+.competence-container {
+  background-color: #d5d6df;
+}
+#competences {
+  text-align: center;
+  font-size: 16px;
+  color: var(--main-color);
+  margin-bottom: 100px;
+}
+.skille {
+  display: flex;
+  align-items: normal;
+  flex-direction: row;
+
+  justify-content: space-between;
+  margin: 40px;
+}
+.skill {
+  background-color: white;
+  display: flex;
+  align-items: normal;
+  flex-direction: column;
+  width: 500px;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+  border: 2px;
+  border-radius: 5px;
+}
+.skills {
+  text-align: center;
+  font-weight: bold;
+}
+.tecno {
+  margin-bottom: 10px;
+  width: 400px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.label {
+  margin: 0;
+}
+.hard {
+  height: auto;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.bar {
+  background-color: #d5d6df;
+  width: 100%;
+  height: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.bare {
+  height: 100%;
+  border-radius: 10px;
+}
+.bare.html,
+.bare.css,
+.bare.js,
+.bare.vs,
+.bare.git,
+.bare.creative,
+.bare.work,
+.bare.lead,
+.bare.mark {
+  background-color: var(--main-background-color);
+}
+.bare.html {
+  width: 90%;
+}
+.bare.css {
+  width: 90%;
+}
+.bare.js {
+  width: 60%;
+}
+.bare.vs {
+  width: 80%;
+}
+.bare.git {
+  width: 50%;
+}
+
+.bare.creative {
+  width: 90%;
+}
+.bare.work {
+  width: 70%;
+}
+.bare.lead {
+  width: 75%;
+}
+.bare.mark {
+  width: 65%;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  background-color: #0f1108;
+}
+.contacter {
+  width: 600px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+#contact > p {
+  color: #d5d6df;
+  font-size: 25px;
+  text-align: center;
+  padding: 2px;
+}
+
+.entrer > label {
+  color: #d5d6df;
+}
+.entrer {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+}
+.noms,
+input,
+label,
+textarea {
+  border: 5px;
+  border-color: red;
+  border-radius: 5px;
+}
+
+.noms {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  align-items: flex-start;
+  color: #d5d6df;
+  justify-content: space-between;
+  gap: 20px;
+}
+.nom {
+  text-align: right;
+}
+.prenom {
+  text-align: left;
+}
+.sujet {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 400px;
+  color: #d5d6df;
+  margin-top: 10px;
+}
+textarea {
+  width: 400px;
+  height: 200px;
+  margin-top: 10px;
+}
+.envoyer {
+  padding: 10px 30px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+@media (min-width: 768px) and(max-width: 1024px) {
+  body {
+    margin: 0;
+    height: auto;
+    width: 780px;
+    margin: 0 auto;
+    font-weight: 10px;
+  }
+}
+.projet1 {
+  width: 250px;
+  padding: 5px;
+  margin: 10px auto;
+}
+.skill {
+  width: 300px;
+  height: 200px;
+  gap: 5px;
+  padding: 20px;
+  margin: 10px auto;
+  border: 2px;
+}
+.about-container {
+  height: auto;
+}
+.hard {
+  height: auto;
+  overflow: hidden;
+  margin-top: 5px;
+}
+@media (min-width: 480px) and(max-width: 768px) {
+  body {
+    margin: 0;
+    height: auto;
+
+    font-weight: 10px;
+  }
+  .about-container {
+    padding: 40px;
+    gap: 20px;
+    height: auto;
+    justify-content: space-between;
+  }
+  .images {
+    padding-left: 20px;
+  }
+  .projet1 {
+    width: 200px;
+    padding: 5px;
+    margin: 10px auto;
+  }
+  .skill {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    margin: 0;
+    height: auto;
+    width: 460px;
+    font-weight: 10px;
+  }
+  .header-container {
+    margin-bottom: 1px;
+    padding: 2px;
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .nav {
+    display: none;
+  }
+
+  .container {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .info {
+    text-align: center;
+    margin: 5px;
+  }
+  .image1 {
+    order: -1;
+    width: 460px;
+  }
+  .about-container {
+    padding: 40px;
+    gap: 20px;
+    height: auto;
+    justify-content: space-between;
+  }
+  .apropos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    font-size: 16px;
+    width: 400px;
+  }
+
+  .about {
+    max-width: 200px;
+    padding: 0;
+  }
+
+  .images {
+    text-align: center;
+    padding-left: 0;
+    order: -1;
+  }
+
+  .image {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+  }
+  .cv {
+    order: -1;
+  }
+  .project {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 2px;
+  }
+  .projet1 {
+    width: 300px;
+    border: 2px;
+    padding: 5px;
+    margin: 10px auto;
+  }
+
+  .projet-container,
+  .competence-container {
+    padding: 20px;
+    height: auto;
+  }
+
+  .skille {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .skill {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 10px auto;
+    border: 2px;
+  }
+
+  .tecno {
+    margin-bottom: 0;
+    width: 280px;
+    padding: 0;
+    margin: 2px;
+  }
+  #competences {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .hard {
+    margin-top: 5px;
+  }
+  .contact-container {
+    height: auto;
+  }
+  .contacter {
+    width: 350px;
+    margin: 5px auto;
+  }
+  #contact > p {
+    font-size: 15px;
+  }
+
+  .footer {
+    margin: 5px;
+  }
+  .design {
+    font-size: 10px;
+  }
+  .footer button {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  :root {
+    --main-color: #508aa8;
+    --main-button: #508aa8;
+    --main-background-color: #508aa8;
+  }
+}
