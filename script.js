@@ -1,5 +1,5 @@
 function moncv() {
-  window.open("/cv/CV_Zawadi_Bagalwa_2025 info.docx", "-blank");
+  window.open("./cv/CV_Zawadi_Bagalwa_2025 info.docx", "-blank");
 }
 function projet() {
   window.location.href = "#projets";
@@ -22,3 +22,4 @@ function retour() {
     behavior: "smooth",
   });
 }
+
